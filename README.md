@@ -1,41 +1,50 @@
-# Project Name
-.
+# Maturity Check Chatbot
 
-## Prerequisites
-- Python 3.8 or higher
-- Git
+This is a technical assessment chatbot designed to help with maturity assessments by collecting user details and answering relevant questions. It includes a **Streamlit** frontend and a **FastAPI** backend.
+
+---
+
 
 ## Setup Instructions
 
-1. **Clone the Repository**
-     ```bash
-   git clone https://github.com/El-Technology/AIssessment.git
-   cd MATURITY-CHECK CHATBOT
+Follow these steps to set up and run the application locally.
 
+### 1. Clone the Repository
 
-2. # Environment Setup   
-# Create and activate virtual environment
+```bash
+git clone https://github.com/El-Technology/AIssessment.git
+cd MATURITY-CHECK-CHATBOT
+```
+
+### 2. Set Up the Environment
+Create and Activate a Virtual Environment
+
 python -m venv venv
 
-# Windows
-venv\Scripts\activate
-# Unix/MacOS
-source venv/bin/activate
+### 3. Activate the virtual environment:
 
-# Install dependencies
+- Windows: venv\Scripts\activate
+
+- Unix/MacOS: source venv/bin/activate
+
+##### Install Dependencies: 
 pip install -r requirements.txt
 
-# Configure Environment Variables
-# Copy example environment file
-  cp .env.example .env
 
-# Open .env and update the required API keys
+### 4. Configure Environment Variables
+Copy the example environment file to set up required API keys:
+cp .env.example .env
 
-# Run the Application Start Backend Server:
-  uvicorn api:app --reload
+Then, open the .env file and update the necessary API keys or other environment-specific settings.
 
-# Run the Application Start Frontend(Streamlit) Server:
-  streamlit run app.py
+### 5. Run the Application
+Start the Backend Server
+To start the FastAPI backend server, run:
+uvicorn api:app --reload
+
+Start the Frontend (Streamlit) Server
+In a new terminal (with the virtual environment activated), run:
+streamlit run app.py
 
 
 ## Database Setup
