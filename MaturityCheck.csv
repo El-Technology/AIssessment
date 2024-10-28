@@ -1,0 +1,47 @@
+Department,Category,Question
+Technical Architecture,Data ,Do you have any data Architecture Repository? Are data flows through the NW known and documented?
+Technical Architecture,Data ,Are all IT employees aware of data sensitivity? How is Data Management &  Data Governance is conducted?
+Technical Architecture,Application,Do you have any application Architecture Repository? Are all applications implemented are known and documented? Are self-developed applications in place? If yes how are these managed?
+Technical Architecture,Application,"Are specialized applications experts assigned accordingly? Is there a an Implementation and life cycle process for new application, and 2en and 3rd level support?"
+Technical Architecture,Infrastructure ,Does Infrastructure Architecture follow pre-defined Blueprints and is documented?
+Technical Architecture,Infrastructure ,"How Infrastructure Management is conducted?, does it follows International standards? Is there any  Standardization measures?"
+IT Management,Monitoring,"Do you have tools for monitoring, Logging and Reporting? "
+IT Management,Monitoring,Does the tools monitor performance and load? Is this documented? Is monitoring triggering any alarms in case of high load or low performance?
+IT Management,Provisioning,What tools are used for VM and HW provisioning?
+IT Management,Provisioning,"How these tools are used? Automated, script based, or manually?"
+IT Management,ITSM & Documentation,Do you have ITSM Skilled employees? Are ITSM processes and other IT processes documented? What tools are you using for this? 
+IT Management,ITSM & Documentation,Are proper OLA management with business is in place? How are OLAs are measured?
+IT Management,IT Governance,What unit is responsible for governance? And are  policies in place and documented?
+IT Management,IT Governance,"How are governance roles are implemented and controlled, improved?"
+IT Management,Maintenance,Do you have IT Maintenance Plan? Does it include SW patch an update? Does it include HW life cycle management? 
+IT Management,Maintenance,"Who is responsible for SW and HW maintenance? How HW support is ensured?, how SW licensing is managed? What tools are used to monitor licensing and life cycles?"
+Information Security,Access and Identity,Do you have access control for physical access to IT equipment? USB authorization? 
+Information Security,Access and Identity,How Physical access to IT equipment in managed? What authorization and authentication mechanisms are in place?
+Information Security,Digital Rights,do you Active Directory or any centralized identity management systems? Is there any enterprise Rights Management in place?
+Information Security,Digital Rights, How data are secured? How identity policies are implemented (e.g. passwords rules)
+Information Security,Cyber Defense,What kind of cyber security measures are in place? Do you have a Zoning architecture (e.g. DMZ)? 
+Information Security,Cyber Defense,How hackings are identified? How logs and sec. systems are monitored?
+IT Operation,User Interface,What systems are used to manage IT? Shell commends? Off the shelf tools?
+IT Operation,User Interface,how the IT team is trained to operate the system they are responsible for?
+IT Operation,IT Integration,what Standard APIs are used? If any? 
+IT Operation,IT Integration,Do you have an IT Integration Strategy in place to ensure all systems are using standard integration measures?
+IT Operation,IT Requirements ,Do you have an IT Requirement process in place? Are you using any tools to collect requirements or demand?
+IT Operation,IT Requirements ,How internal and external requirements are managed?
+IT Operation,Infrastructure Portfolio ,Does the business units knows what IT is capable of? Do you have a service catalogue?
+IT Operation,Infrastructure Portfolio ,How services are delivered to internal and external customers? Do you have a SPOC assigned to customers? How it is ensured that no redundancy in the offerings is happening?
+IT Assets,Server,"What Server types you have in place (e.g. Vendors, models, year of end of support) do you have a standard server categories specification e.g. small, medium, and large? Do you have an inventory for all used servers?"
+IT Assets,Server,"Who is responsible for sever management, spare parts and HW exchange? What contracts do have for this? Is there a known process and tool for this in place?"
+IT Assets,Virtualization,how skilled are IT employees in virtualization technologies used? What VMs are in place?
+IT Assets,Virtualization,"How VM are managed? Standard approach, script based, or manually?"
+IT Assets,Operating Systems,what Operating System types are in place? 
+IT Assets,Operating Systems,Are Licenses monitored and  how Life Cycle Management is conducted
+IT Assets,Database,What DB Applications are in place?
+IT Assets,Database,"How Data Consistency, redundancy, recovery is implemented?"
+IT Assets,Storage,What type of Storage Systems and technologies are implemented?
+IT Assets,Storage,"Do you have Fail Over, or Redundancy mechanism in place?"
+IT Assets,Backup ,What Backup Systems are in place?
+IT Assets,Backup ,How Backups are managed?
+IT Assets,Recovery ,What Data Recovery Systems are in place?
+IT Assets,Recovery ,How Service Continuity Management is conducted and ensured?
+IT Assets,IT Network,What IT Network elements are used for IT connectivity?
+IT Assets,IT Network,Who is responsible for IT connectivity Management? Do you know how much bandwidth for example is needed for the implemented IT systems?
